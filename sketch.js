@@ -2,7 +2,7 @@
 var x, y;
 var points;
 function setup() {
-  createCanvas(720, 400);
+    createCanvas(window.innerWidth, window.innerHeight);
   // Starts in the middle
   x = width / 2;
   y = height + 16;
